@@ -9,7 +9,6 @@ public class ScalableEventDispatcher {
     private final ExecutorService workerPool;
     private volatile boolean running = true;
 
-    // Retry settings
     private final int maxRetries = 3;
     private final long retryDelayMillis = 1000;
 
